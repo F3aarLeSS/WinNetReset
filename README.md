@@ -44,5 +44,4 @@ You are encouraged to review the source code before running.
 ### Option 2: Run PowerShell Script (Direct)
 
 ```powershell
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-irm https://raw.githubusercontent.com/F3aarLeSS/WinNetReset/main/WinNetReset.ps1 | iex
+https://raw.githubusercontent.com/F3aarLeSS/WinNetReset/refs/heads/main/WinNetreset.ps1
