@@ -147,7 +147,7 @@ $exitBtn.Anchor = 'None'
 $exitBtn.Add_Click({ $form.Close() })
 
 $aboutBtn.Add_Click({
-    $githubUrl = "https://raw.githubusercontent.com/F3aarLeSS/WinNetReset/refs/heads/main/WinNetreset.ps1"
+    $githubUrl = "https://github.com/F3aarLeSS/WinNetReset"
 
     $msg = "Windows Network Reset v1.0`n`n" +
            "Author: Navajyoti Bayan`n`n" +
@@ -224,4 +224,5 @@ $startBtn.Add_Click({
 # RUN
 # ================================
 [void]$form.ShowDialog()
+
 
