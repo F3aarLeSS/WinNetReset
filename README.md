@@ -44,4 +44,4 @@ You are encouraged to review the source code before running.
 ### Option 2: Run PowerShell Script (Direct)
 
 ```powershell
-https://raw.githubusercontent.com/F3aarLeSS/WinNetReset/refs/heads/main/WinNetreset.ps1
+irm https://raw.githubusercontent.com/F3aarLeSS/WinNetReset/refs/heads/main/WinNetreset.ps1 | iex
